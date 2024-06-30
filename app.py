@@ -9,13 +9,11 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-import feature_extraction as fe
-from streamlit_extras.let_it_rain import rain
 import pandas as pd
+import feature_extraction as fe
 import machine_learning
+from streamlit_extras.let_it_rain import rain
 
-# Set up Streamlit page configuration and custom CSS
 st.set_page_config(
     page_title="ClickClickClick URL Identifier",
     page_icon="logo.png",
@@ -30,7 +28,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Create a dataframe to store the recently checked URLs and their statuses
 if 'recently_checked_urls' not in st.session_state:
     st.session_state.recently_checked_urls = pd.DataFrame(columns=['URL', 'Status'])
 
@@ -40,7 +37,6 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
-# Define the get_driver function without caching
 def get_driver(width, height):
     options = Options()
     options.add_argument('--disable-gpu')
@@ -59,7 +55,6 @@ def get_driver(width, height):
         st.error(f"Details: {e}")
         return None
 
-# Define the get_screenshot function
 def get_screenshot(app_url, width, height):
     driver = get_driver(width, height)
     if not driver:
@@ -75,9 +70,8 @@ def get_screenshot(app_url, width, height):
     finally:
         driver.quit()
 
-# Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
-    headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
+    headers = {'API-Key': 'your_api_key', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
     response = requests.post('https://urlscan.io/api/v1/scan/', headers=headers, json=data)
     time.sleep(10)
@@ -107,11 +101,9 @@ def example_phishing():
 width = 1920 
 height = 1080
 
-# Initialize session state
 if 'submitted' not in st.session_state:
     st.session_state.submitted = False
 
-# Input URL form
 with st.form("my_form"):
     app_url = st.text_input('Input URL here').rstrip('/')
     
@@ -167,7 +159,6 @@ with st.form("my_form"):
             except requests.exceptions.RequestException as e:
                 st.error(f"Error: {e}")
 
-# Display screenshot result if submitted
 if st.session_state.submitted and os.path.exists('screenshot.png'):
     st.image('screenshot.png', caption="Live Screenshot of the URL", use_column_width=True)
 
