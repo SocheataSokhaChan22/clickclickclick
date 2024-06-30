@@ -2,7 +2,6 @@ import streamlit as st
 import time
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,8 +14,6 @@ from streamlit_extras.let_it_rain import rain
 import pandas as pd
 import machine_learning
 import os
-import ast
-import json
 
 # Set up Streamlit page configuration and custom CSS
 st.set_page_config(
@@ -29,24 +26,34 @@ st.set_page_config(
 st.markdown("""
     <style>
     .stApp {
-        color: #333;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
     }
     .stTitle {
         color: #333;
-        font-size: 36px;
+        font-size: 48px;
     }
-    .stHeader {
+    .stHeader, .stSubheader {
         color: #333;
+        font-size: 32px;
     }
-    .stSubheader {
+    .stMarkdown {
         color: #333;
+        font-size: 24px;
     }
     .stTextInput > div > div > input {
         border: 2px solid #E97451;
+        font-size: 20px;
     }
-    .stSelectBox > div > div > {
+    .stSelectbox > div > div > div > div {
         border: 2px solid #E97451;
+        font-size: 20px;
+    }
+    .stButton > button {
+        background-color: #E97451;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
     }
     .frame {
         display: block;
@@ -68,40 +75,52 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
+# Define the get_driver function
 def get_driver(width, height):
     options = Options()
     options.add_argument('--disable-gpu')
     options.add_argument('--headless')
     options.add_argument(f"--window-size={width}x{height}")
-    
-    service = Service('/Users/socheatasokhachan/Desktop/testclicktestclick/chromedriver')  # Specify the path to your ChromeDriver
-    driver = webdriver.Chrome(service=service, options=options)
-    
-    return driver
 
+    service = Service('/Users/socheatasokhachan/Desktop/finalclicklop/clickclickclick/chromedriver')
+    
+    try:
+        driver = webdriver.Chrome(service=service, options=options)
+        return driver
+    except Exception as e:
+        st.error(f"Error initializing ChromeDriver: {e}")
+        return None
+
+# Define the get_screenshot function
 def get_screenshot(app_url, width, height):
     driver = get_driver(width, height)
-    if app_url.endswith('streamlit.app'):
-        driver.get(f"{app_url}/~/+/")
-    else:
-        driver.get(app_url)
-            
-    time.sleep(3)
-            
-    # Explicitly wait for an essential element to ensure content is loaded
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
-            
-    # Capture the screenshot
-    driver.save_screenshot('screenshot.png')
-    driver.quit()
+    if not driver:
+        return
 
+    try:
+        if app_url.endswith('streamlit.app'):
+            driver.get(f"{app_url}/~/+/")
+        else:
+            driver.get(app_url)
+
+        time.sleep(3)
+
+        # Explicitly wait for an essential element to ensure content is loaded
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+
+        # Capture the screenshot
+        driver.save_screenshot('screenshot.png')
+    except Exception as e:
+        st.error(f"Error capturing screenshot: {e}")
+    finally:
+        driver.quit()
+
+# Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
-    headers = {'API-Key': '01ff043a-e60e-404b-a3b5-15aa3f6bc3c5', 'Content-Type': 'application/json'}
+    headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
     response = requests.post('https://urlscan.io/api/v1/scan/', headers=headers, json=data)
     time.sleep(10)  # Initial wait before starting to poll
-    max_attempts = 30  # Maximum number of attempts
-    interval_seconds = 2  # Polling interval in seconds
     if response.status_code == 200:
         return response.json()
     else:
@@ -161,10 +180,7 @@ with st.form("my_form"):
             try:
                 response = requests.get(app_url, verify=False, timeout=4)
                 if response.status_code != 200:
-                    st.error("We could not scan this website! This can happen for multiple reasons:"
-                             "The site could not be contacted (DNS or generic network issues):"
-                             "The site uses insecure TLS (weak ciphers e.g.):" 
-                             "The site requires HTTP authentication: {}".format(app_url))
+                    st.error("We could not scan this website! This can happen for multiple reasons: The site could not be contacted (DNS or generic network issues), The site uses insecure TLS (weak ciphers e.g.), The site requires HTTP authentication.")
                 else:
                     soup = BeautifulSoup(response.content, "html.parser")
                     vector = fe.create_vector(soup)
@@ -222,5 +238,8 @@ st.write('Project Members:')
 st.write('- Morita Chhea')
 st.write('- Socheata Sokhachan')
 st.write('- Sophy Do')        
-st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing phishing URLs and trains them into a model that can differentiate between legitimate and malicious ones.')
-st.write('While "https://www.clickclickclick.tech/" is an online phishing awareness campaign that aims to educate people online on how to aware of phishing link, understanding how it works and how to protect themself. This online campaign runs by Mr.Rosa Rin, a senior student of the Marketing department at Paragon International University.')
+st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various benign and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
+
+# Footer with contact and privacy policy
+st.write('Contact us at: [customerservice@clickclickclick.com](mailto:ssokhachan@paragoniu.edu.kh)')
+st.write('Privacy Policy: We respect your privacy and do not store or share any information entered in the ClickClickClick URL Identifier.')
