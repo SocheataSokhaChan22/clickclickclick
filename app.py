@@ -50,8 +50,8 @@ def get_driver(width, height):
     options.add_argument("--disable-dev-shm-usage")
 
     try:
-        chrome_path = '/usr/bin/chromedriver'  # Path to ChromeDriver
-        service = Service(chrome_path)
+        chrome_driver_path = '/usr/local/bin/chromedriver'
+        service = Service(chrome_driver_path)
         driver = webdriver.Chrome(service=service, options=options)
         return driver
     except Exception as e:
