@@ -49,9 +49,14 @@ def get_driver(width, height):
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    service = Service(ChromeDriverManager().install(version="114.0.5735.90"), port=0)
-    driver = webdriver.Chrome(service=service, options=options)
-    return driver
+    try:
+        service = Service(ChromeDriverManager().install(), port=0)
+        driver = webdriver.Chrome(service=service, options=options)
+        return driver
+    except Exception as e:
+        st.error(f"Error initializing WebDriver: {e}")
+        return None
+
 
 # Define the get_screenshot function
 def get_screenshot(app_url, width, height):
