@@ -3,8 +3,8 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -15,7 +15,7 @@ from streamlit_extras.let_it_rain import rain
 import pandas as pd
 import machine_learning
 
-# Streamlit configuration and CSS
+# Set up Streamlit page configuration and custom CSS
 st.set_page_config(
     page_title="ClickClickClick URL Identifier",
     page_icon="logo.png",
@@ -30,6 +30,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Create a dataframe to store the recently checked URLs and their statuses
 if 'recently_checked_urls' not in st.session_state:
     st.session_state.recently_checked_urls = pd.DataFrame(columns=['URL', 'Status'])
 
@@ -39,6 +40,7 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
+# Define the get_driver function
 @st.cache_resource
 def get_driver(width, height):
     options = Options()
@@ -48,10 +50,11 @@ def get_driver(width, height):
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    service = Service(ChromeDriverManager().install())
+    service = Service(ChromeDriverManager().install(), port=0)
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
+# Define the get_screenshot function
 def get_screenshot(app_url, width, height):
     driver = get_driver(width, height)
     if not driver:
@@ -59,14 +62,15 @@ def get_screenshot(app_url, width, height):
 
     try:
         driver.get(app_url)
-        time.sleep(3)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        time.sleep(2)  # Adjust sleep time as needed
         driver.save_screenshot('screenshot.png')
     except Exception as e:
         st.error(f"Error capturing screenshot: {e}")
     finally:
         driver.quit()
 
+# Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
     headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
@@ -98,26 +102,34 @@ def example_phishing():
 width = 1920 
 height = 1080
 
+# Initialize session state
 if 'submitted' not in st.session_state:
     st.session_state.submitted = False
 
+# Input URL form
 with st.form("my_form"):
     app_url = st.text_input('Input URL here').rstrip('/')
+    
     clickclickclick_submit = st.form_submit_button("Submit with ClickClickClick Technology Only")
+    
     st.write("**Also Verify with urlscan.io**")
+    st.write('We directly connect you to view information such as screenshot of the URL, domains, IPs, Autonomous System (AS) numbers, hashes, etc. We integrate the APIs of urlscan.io to provide more detailed information about the URL infrastructure in summary results.')
     visibility = st.selectbox("Select Scan Visibility", ["public", "unlisted", "private - Scan"])
+    
     st.write("""
     - **Public:** The scan and its results will be publicly accessible.
     - **Unlisted:** The scan will not be listed publicly, but it can be accessed with a direct link.
     - **Private:** The scan and its results will only be accessible to you. Requires an API key with private scan privileges.
     """)
+
     urlscan_submit = st.form_submit_button("Submit with ClickClickClick Technology and Verify with urlscan.io")
 
-    if clickclickclick_submit or urlscan_submit:
+    if clickclickclick_submit:
         if app_url:
-            get_screenshot(app_url, width, height)
-            st.session_state.submitted = True
             try:
+                get_screenshot(app_url, width, height)
+                st.session_state.submitted = True
+
                 response = requests.get(app_url, verify=False, timeout=4)
                 if response.status_code != 200:
                     st.error("We could not scan this website! This can happen for multiple reasons: The site could not be contacted (DNS or generic network issues), The site uses insecure TLS (weak ciphers e.g.), The site requires HTTP authentication.")
@@ -134,18 +146,26 @@ with st.form("my_form"):
                     
                     status = "SUSPICIOUS" if result[0] == 1 else "LEGITIMATE"
                     st.session_state.recently_checked_urls = pd.concat([st.session_state.recently_checked_urls, pd.DataFrame({'URL': [app_url], 'Status': [status]})])
-                    
-                    if urlscan_submit:
-                        st.info('Submitting URL to urlscan.io...')
-                        urlscan_response = submit_url_to_urlscan(app_url, visibility)
-                        if urlscan_response:
-                            scan_id = urlscan_response['uuid']
-                            st.success(f'Scan complete. View results at [URLScan website](https://urlscan.io/result/{scan_id}/)')
-            except requests.exceptions.RequestException as e:
-                st.error("Error: {}".format(e))
 
+            except requests.exceptions.RequestException as e:
+                st.error(f"Error: {e}")
+
+    if urlscan_submit:
+        if app_url:
+            st.session_state.submitted = True
+            try:
+                st.info('Submitting URL to urlscan.io...')
+                urlscan_response = submit_url_to_urlscan(app_url, visibility)
+                if urlscan_response:
+                    scan_id = urlscan_response['uuid']
+                    st.success(f'Scan complete. View results at [URLScan website](https://urlscan.io/result/{scan_id}/)')
+            except requests.exceptions.RequestException as e:
+                st.error(f"Error: {e}")
+
+# Display screenshot result if submitted
 if st.session_state.submitted and exists('screenshot.png'):
     st.image('screenshot.png', caption="Live Screenshot of the URL", use_column_width=True)
+
     with open("screenshot.png", "rb") as file:
         btn = st.download_button(
             label="Download image",
@@ -155,12 +175,7 @@ if st.session_state.submitted and exists('screenshot.png'):
         )
 
 def apply_color(status):
-    if status == 'SUSPICIOUS':
-        return 'color: red'
-    elif status == 'LEGITIMATE':
-        return 'color: green'
-    else:
-        return ''
+    return 'color: red' if status == 'SUSPICIOUS' else 'color: green'
 
 st.subheader("Recently Checked URLs:")
 recently_checked_table = st.session_state.recently_checked_urls.reset_index(drop=True)
@@ -173,6 +188,5 @@ st.write('- Morita Chhea')
 st.write('- Socheata Sokhachan')
 st.write('- Sophy Do')        
 st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various sources and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
-
-st.write('Contact us at: [customerservice@clickclickclick.com](mailto:ssokhachan@paragoniu.edu.kh)')
+st.write('Contact us at: [report_issue_clickclickclick](mailto:ssokhachan@paragoniu.edu.kh)')
 st.write('Privacy Policy: We respect your privacy and do not store or share any information entered in the ClickClickClick URL Identifier.')
