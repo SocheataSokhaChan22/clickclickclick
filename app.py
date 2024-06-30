@@ -69,7 +69,7 @@ if 'recently_checked_urls' not in st.session_state:
     st.session_state.recently_checked_urls = pd.DataFrame(columns=['URL', 'Status'])
 
 # Add a logo/image
-st.image("frame.png", output_format='PNG')
+st.image(os.path.join(os.getcwd(), "frame.png"), output_format='PNG')
 st.title('ClickClickClick URL Identifier')
 st.write('ClickClickClick URL Identifier helps you detect malicious links in emails, text messages, and other online content.')
 st.subheader('Disclaimer')
