@@ -1,3 +1,7 @@
 2024-06-30 17:59:56,399 - ERROR - Failed to fetch data. Status code: 404
 2024-06-30 17:59:56,403 - ERROR - Failed to update the phishing dataset.
 2024-06-30 18:18:26,212 - INFO - Successfully fetched data from Phishtank.
+2024-06-30 21:03:02,626 - INFO - Script started.
+2024-06-30 21:03:05,534 - ERROR - Error fetching data: 404 Client Error: Not Found for url: https://cdn.phishtank.com/datadumps/verified_online.json?Expires=1719756167&Signature=MLCKeHryEOyWXIrthLefqWmtoL45whvHDj5H~FV-GKoAtxo260sA3Qcs3G3JdkU-53PadYs9M39tYEkwitpfbBiXqIvEYyiMuiPvYUh-rtJaRwaKP0VS-T9JNLVyI1rd2mLj873c24JxX45veFPZcVh7vIL0b26lu6qtMpAruEjWdxYe2EU2MSdRLMp9c7ahT1V9iDq2KD1D4kPgRTluRaxNCCFMJhiwMePmCD8KZ5CN9eH8wMJ~HqOEwc7tWj7sWzeALu1k27hSpbpMBYkfoE1wE04yKJQcYAXBlP38WH2t7rVdaObQuuRRGLDnGp9JEP73Omg523rV60kEg11f-Q__&Key-Pair-Id=APKAILB45UG3RB4CSOJA
+2024-06-30 21:03:05,537 - ERROR - Failed to update phishing data.
+2024-06-30 21:03:05,537 - INFO - Script finished.
