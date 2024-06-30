@@ -68,8 +68,14 @@ st.markdown("""
 if 'recently_checked_urls' not in st.session_state:
     st.session_state.recently_checked_urls = pd.DataFrame(columns=['URL', 'Status'])
 
-# Add a logo/image
-st.image(os.path.join(os.getcwd(), "frame.png"), output_format='PNG')
+# Absolute path to the image file
+file_path = "/Users/socheatasokhachan/Desktop/finalclicklop/clickclickclick/frame.png"
+
+# Verify the file exists
+if os.path.exists(file_path):
+    st.image(file_path, output_format='PNG')
+else:
+    st.error(f"File not found: {file_path}")
 st.title('ClickClickClick URL Identifier')
 st.write('ClickClickClick URL Identifier helps you detect malicious links in emails, text messages, and other online content.')
 st.subheader('Disclaimer')
