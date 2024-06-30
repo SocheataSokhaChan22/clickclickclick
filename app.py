@@ -40,8 +40,7 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
-# Define the get_driver function
-@st.cache_resource
+# Define the get_driver function without caching
 def get_driver(width, height):
     options = Options()
     options.add_argument('--disable-gpu')
@@ -50,7 +49,7 @@ def get_driver(width, height):
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    service = Service(ChromeDriverManager().install(), port=0)
+    service = Service(ChromeDriverManager().install(version="114.0.5735.90"), port=0)
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
@@ -63,7 +62,7 @@ def get_screenshot(app_url, width, height):
     try:
         driver.get(app_url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
-        time.sleep(2)  # Adjust sleep time as needed
+        time.sleep(2)
         driver.save_screenshot('screenshot.png')
     except Exception as e:
         st.error(f"Error capturing screenshot: {e}")
@@ -188,5 +187,5 @@ st.write('- Morita Chhea')
 st.write('- Socheata Sokhachan')
 st.write('- Sophy Do')        
 st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various sources and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
-st.write('Contact us at: [report_issue_clickclickclick](mailto:ssokhachan@paragoniu.edu.kh)')
+st.write('Contact us at: [customerservice@clickclickclick.com](mailto:ssokhachan@paragoniu.edu.kh)')
 st.write('Privacy Policy: We respect your privacy and do not store or share any information entered in the ClickClickClick URL Identifier.')
