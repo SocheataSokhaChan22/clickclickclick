@@ -43,9 +43,9 @@ def get_driver():
     options.add_argument('--headless')
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.binary_location = os.environ.get("CHROME_BIN")
+    options.binary_location = str(os.environ.get("CHROME_BIN"))
 
-    service = Service(os.environ.get("CHROME_DRIVER"))
+    service = Service(str(os.environ.get("CHROME_DRIVER")))
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
@@ -163,7 +163,7 @@ def apply_color(status):
 
 st.subheader("Recently Checked URLs:")
 recently_checked_table = st.session_state.recently_checked_urls.reset_index(drop=True)
-st.table(recently_checked_table.style.applymap(lambda x: apply_color(x), subset=['Status']))
+st.table(recently_checked_table.style.map(lambda x: apply_color(x), subset=['Status']))
 
 st.header("About ClickClickClick URL Identifier")
 st.write('ClickClickClick URL Identifier is a tool developed by 3 junior students of the MIS department at Paragon International University.') 
