@@ -1,0 +1,437 @@
+2024-06-10 02:48:15,552 - INFO - Successfully fetched data from Phishtank.
+2024-06-10 02:48:18,357 - WARNING - 0. HTTP connection was not successful for the URL: https://allegrolokalnie-transakcja.67198374.com
+2024-06-10 02:48:21,234 - WARNING - 2. HTTP connection was not successful for the URL: https://zzqicailu.com/109fenlleopf
+2024-06-10 02:48:26,929 - WARNING - 6. HTTP connection was not successful for the URL: https://auth05-verifyacc.ru/online/main.php?locale=en-US&authID=2e5bf1df38bbe97d50bffa932460b1cd7f68eb66&start=1717956522&end=lmcu
+2024-06-10 02:48:29,020 - ERROR - 7 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /bot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1682a9550>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 02:48:40,786 - WARNING - 10. HTTP connection was not successful for the URL: https://debix-app.esix.group/willkommen.aspx
+2024-06-10 02:49:06,677 - WARNING - 20. HTTP connection was not successful for the URL: https://boxe.brbcable.com/daydream/
+2024-06-10 02:49:21,649 - WARNING - 31. HTTP connection was not successful for the URL: https://yjo.xvj.mybluehost.me/com/index2.php
+2024-06-10 02:49:31,106 - ERROR - 32 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:49:45,578 - ERROR - 35 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:49:52,433 - ERROR - 36 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:50:01,588 - ERROR - 38 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:50:05,664 - WARNING - 40. HTTP connection was not successful for the URL: https://myonlinepackage.com/
+2024-06-10 02:50:14,817 - ERROR - 42 --> HTTPSConnectionPool(host='www.ooffer.biz', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:50:19,030 - ERROR - 43 --> HTTPSConnectionPool(host='ooffer.biz', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:50:20,173 - WARNING - 44. HTTP connection was not successful for the URL: https://twint.ch-transfers.com/de/receive/1269180589
+2024-06-10 02:50:20,766 - WARNING - 45. HTTP connection was not successful for the URL: http://qddssplkrf.duckdns.org
+2024-06-10 02:50:21,351 - WARNING - 46. HTTP connection was not successful for the URL: http://nsnjwtnjlq.duckdns.org
+2024-06-10 02:50:21,929 - WARNING - 47. HTTP connection was not successful for the URL: http://pkhtnhdyau.duckdns.org
+2024-06-10 02:50:22,500 - WARNING - 48. HTTP connection was not successful for the URL: http://lixurnjfkk.duckdns.org
+2024-06-10 02:50:31,959 - WARNING - 53. HTTP connection was not successful for the URL: https://bio.biolinktr.com/btcommsply95
+2024-06-10 02:50:32,608 - WARNING - 54. HTTP connection was not successful for the URL: https://tinyurl.com/2rhj4tdc
+2024-06-10 02:50:34,762 - WARNING - 56. HTTP connection was not successful for the URL: https://emailattlink.wixsite.com/my-site-1
+2024-06-10 02:50:37,627 - WARNING - 58. HTTP connection was not successful for the URL: https://serviceede.com/ar
+2024-06-10 02:50:38,933 - WARNING - 59. HTTP connection was not successful for the URL: https://webverify.info/Servicecu/Servicecuorg/Servicecuorg
+2024-06-10 02:50:44,112 - WARNING - 62. HTTP connection was not successful for the URL: https://docs.google.com/presentation/d/e/2PACX-1vSwznsXl7LdEKYws4CnIcybGTkUelpZSB-U4ZiADu3Si9SyL1iJj3aBVQn5AHR7pUOen-QcDqS6PNDO/pub?start=false&amp;loop=false&amp;delayms=3000
+2024-06-10 02:50:59,030 - WARNING - 68. HTTP connection was not successful for the URL: https://myonlinepackage.com/nw/DHH/
+2024-06-10 02:51:09,494 - WARNING - 75. HTTP connection was not successful for the URL: https://activityloginerror-jp-now.web.app/
+2024-06-10 02:51:09,897 - WARNING - 76. HTTP connection was not successful for the URL: https://activityloginerror-jp-now.firebaseapp.com/
+2024-06-10 02:51:10,322 - WARNING - 77. HTTP connection was not successful for the URL: https://aquelle-insight.web.app/
+2024-06-10 02:51:10,759 - WARNING - 78. HTTP connection was not successful for the URL: https://aquelle-insight.firebaseapp.com/
+2024-06-10 02:51:11,169 - WARNING - 79. HTTP connection was not successful for the URL: https://bluepayonline-merchant.web.app/
+2024-06-10 02:51:11,590 - WARNING - 80. HTTP connection was not successful for the URL: https://bluepayonline-merchant.firebaseapp.com/
+2024-06-10 02:51:14,194 - WARNING - 87. HTTP connection was not successful for the URL: https://hccjad-f-b-01.web.app/
+2024-06-10 02:51:14,607 - WARNING - 88. HTTP connection was not successful for the URL: https://hccjad-f-b-01.firebaseapp.com/
+2024-06-10 02:51:15,002 - WARNING - 89. HTTP connection was not successful for the URL: https://hornpos.web.app/
+2024-06-10 02:51:15,417 - WARNING - 90. HTTP connection was not successful for the URL: https://hornpos.firebaseapp.com/
+2024-06-10 02:51:16,612 - WARNING - 93. HTTP connection was not successful for the URL: https://joioplre.web.app/
+2024-06-10 02:51:17,026 - WARNING - 94. HTTP connection was not successful for the URL: https://joioplre.firebaseapp.com/
+2024-06-10 02:51:18,206 - WARNING - 97. HTTP connection was not successful for the URL: https://pr-resolvecheck-appeal.web.app/
+2024-06-10 02:51:18,598 - WARNING - 98. HTTP connection was not successful for the URL: https://pr-resolvecheck-appeal.firebaseapp.com/
+2024-06-10 02:51:21,248 - WARNING - 102. HTTP connection was not successful for the URL: https://ktirt.shop/tbi/
+2024-06-10 02:52:02,239 - ERROR - 125 --> HTTPSConnectionPool(host='0209659394834583984540320543.03289023982098.onlinegames14.com', port=443): Max retries exceeded with url: /public/tracking.php?id=&page= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x168e02750>, 'Connection to 0209659394834583984540320543.03289023982098.onlinegames14.com timed out. (connect timeout=4)'))
+2024-06-10 02:52:06,249 - ERROR - 126 --> HTTPSConnectionPool(host='0209659394834583984540320543.03289023982098.onlinegames14.com', port=443): Max retries exceeded with url: /public/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x168e03020>, 'Connection to 0209659394834583984540320543.03289023982098.onlinegames14.com timed out. (connect timeout=4)'))
+2024-06-10 02:52:11,481 - WARNING - 130. HTTP connection was not successful for the URL: https://tinyurl.com/2uwxnhv7
+2024-06-10 02:52:11,570 - ERROR - 131 --> HTTPSConnectionPool(host='telegamr.xyz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11efdcf80>: Failed to resolve 'telegamr.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:52:14,251 - WARNING - 133. HTTP connection was not successful for the URL: https://stecmcomunlty.com/42727213898132
+2024-06-10 02:52:46,245 - ERROR - 149 --> HTTPConnectionPool(host='srv214218.hoster-test.ru', port=80): Max retries exceeded with url: /niftycom/P22.html (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x16871ac00>: Failed to resolve 'srv214218.hoster-test.ru' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:52:51,432 - WARNING - 152. HTTP connection was not successful for the URL: https://reefexim.com/account/login/auth
+2024-06-10 02:52:53,923 - WARNING - 153. HTTP connection was not successful for the URL: https://netflixbillingupdates.us.to/app/login.php
+2024-06-10 02:52:57,307 - WARNING - 155. HTTP connection was not successful for the URL: https://reefexim.com/red/index.html
+2024-06-10 02:52:57,408 - ERROR - 156 --> HTTPConnectionPool(host='giran365.pages.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168238ce0>: Failed to resolve 'giran365.pages.dev' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:52:57,412 - ERROR - 157 --> HTTPSConnectionPool(host='giran365.pages.dev', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168cdaed0>: Failed to resolve 'giran365.pages.dev' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:53:05,292 - WARNING - 161. HTTP connection was not successful for the URL: https://arceluobert.sviluppo.host/7tr8/app/
+2024-06-10 02:53:06,823 - WARNING - 162. HTTP connection was not successful for the URL: https://nordicp.wpenginepowered.com/wp-admin/www/
+2024-06-10 02:53:13,898 - WARNING - 164. HTTP connection was not successful for the URL: https://rpyadav.org/hellenic-bank-support/
+2024-06-10 02:53:17,272 - ERROR - 166 --> HTTPConnectionPool(host='srv213858.hoster-test.ru', port=80): Max retries exceeded with url: /esp/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168e89100>: Failed to resolve 'srv213858.hoster-test.ru' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:53:20,350 - WARNING - 167. HTTP connection was not successful for the URL: https://tinyurl.com/yc6trkk6
+2024-06-10 02:53:22,189 - WARNING - 168. HTTP connection was not successful for the URL: https://nordicp.wpenginepowered.com/wp-admin/rt/hr.html
+2024-06-10 02:53:26,709 - WARNING - 171. HTTP connection was not successful for the URL: https://t.ly/-Sk_F
+2024-06-10 02:53:32,006 - ERROR - 175 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:34,116 - ERROR - 177 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:36,801 - ERROR - 179 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:37,697 - ERROR - 180 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:38,505 - ERROR - 181 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:39,449 - ERROR - 182 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:40,246 - ERROR - 183 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:41,713 - WARNING - 184. HTTP connection was not successful for the URL: https://t.co/YAcJiXPLNY
+2024-06-10 02:53:42,625 - ERROR - 185 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:52,306 - ERROR - 186 --> HTTPSConnectionPool(host='bancolombiappsucursalcompra.bsite.net', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1689c0410>, 'Connection to bancolombiappsucursalcompra.bsite.net timed out. (connect timeout=4)'))
+2024-06-10 02:53:53,582 - ERROR - 187 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:54,572 - ERROR - 188 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:55,376 - ERROR - 189 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:53:56,159 - ERROR - 190 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:54:09,244 - WARNING - 194. HTTP connection was not successful for the URL: https://tib.pmc.mybluehost.me/particulares.php
+2024-06-10 02:54:18,350 - WARNING - 199. HTTP connection was not successful for the URL: https://postalitenfr.hopto.org/posta.fr
+2024-06-10 02:54:33,696 - WARNING - 207. HTTP connection was not successful for the URL: https://cmhb.ca/1/Net%20Me/load.php?home-US-userID887454686437748135480870230574184864-Email-8869711234348463541898645784-second
+2024-06-10 02:54:39,805 - WARNING - 210. HTTP connection was not successful for the URL: https://intlmanagepayrecovmethodsecureffamlzon.automaxpro.cl/?yyy
+2024-06-10 02:54:43,795 - WARNING - 211. HTTP connection was not successful for the URL: http://prvt8updateaccessupgrademanagezone.sebr2049.odns.fr/?herfnedrjhrstjsrtg
+2024-06-10 02:55:08,981 - WARNING - 226. HTTP connection was not successful for the URL: https://ict.enu.mybluehost.me/servizo/home/paket.php
+2024-06-10 02:55:13,730 - WARNING - 229. HTTP connection was not successful for the URL: https://supersegbrasil.com.br/techx/MTTRBDFH/index?FGDD=1
+2024-06-10 02:55:15,442 - WARNING - 230. HTTP connection was not successful for the URL: https://llk.dxc.mybluehost.me/wp-admin/Correos23/correos/auth/index.php
+2024-06-10 02:55:41,859 - WARNING - 247. HTTP connection was not successful for the URL: http://page-timestjjhnfril.pages.dev
+2024-06-10 02:55:43,403 - WARNING - 248. HTTP connection was not successful for the URL: https://page-timestjjhnfril.pages.dev/
+2024-06-10 02:55:44,625 - WARNING - 249. HTTP connection was not successful for the URL: http://page-timelegbhytf.pages.dev
+2024-06-10 02:55:45,564 - WARNING - 250. HTTP connection was not successful for the URL: https://page-timelegbhytf.pages.dev/
+2024-06-10 02:55:48,302 - INFO - Successfully fetched data from Phishtank.
+2024-06-10 02:55:49,844 - WARNING - 0. HTTP connection was not successful for the URL: https://allegrolokalnie-transakcja.67198374.com
+2024-06-10 02:55:53,549 - WARNING - 2. HTTP connection was not successful for the URL: https://zzqicailu.com/109fenlleopf
+2024-06-10 02:55:55,974 - ERROR - 254 --> HTTPSConnectionPool(host='mile.from-wv.com', port=443): Max retries exceeded with url: /foroto (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x148082690>, 'Connection to mile.from-wv.com timed out. (connect timeout=4)'))
+2024-06-10 02:55:58,793 - WARNING - 6. HTTP connection was not successful for the URL: https://auth05-verifyacc.ru/online/main.php?locale=en-US&authID=2e5bf1df38bbe97d50bffa932460b1cd7f68eb66&start=1717956522&end=lmcu
+2024-06-10 02:55:59,983 - ERROR - 255 --> HTTPSConnectionPool(host='mile.from-wv.com', port=443): Max retries exceeded with url: /foroto/pages/region.php?lca (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1689776e0>, 'Connection to mile.from-wv.com timed out. (connect timeout=4)'))
+2024-06-10 02:56:00,273 - ERROR - 7 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /bot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1685cd190>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 02:56:03,365 - WARNING - 257. HTTP connection was not successful for the URL: https://rebrand.ly/f1a0a7
+2024-06-10 02:56:07,055 - WARNING - 258. HTTP connection was not successful for the URL: https://rebrand.ly/1weyian
+2024-06-10 02:56:08,091 - WARNING - 259. HTTP connection was not successful for the URL: https://postnordtud.top/i
+2024-06-10 02:56:09,203 - WARNING - 260. HTTP connection was not successful for the URL: https://postaja.top/o74HrX
+2024-06-10 02:56:09,318 - WARNING - 10. HTTP connection was not successful for the URL: https://debix-app.esix.group/willkommen.aspx
+2024-06-10 02:56:10,495 - WARNING - 261. HTTP connection was not successful for the URL: https://cpanel08wh.bkk1.cloud.z.com/~cp250158/imageplus.co.th/wp-includes/Text/Diff/Renderer/index2.php?enc=82e9b4065ccd132573f796c07caf9c4c&p=0&dispatch=f8c69819e7ad217b025c2eec347df792f7fe0eb7
+2024-06-10 02:56:16,267 - WARNING - 266. HTTP connection was not successful for the URL: https://isrpostmm.life/il
+2024-06-10 02:56:27,507 - WARNING - 20. HTTP connection was not successful for the URL: https://boxe.brbcable.com/daydream/
+2024-06-10 02:56:38,041 - WARNING - 31. HTTP connection was not successful for the URL: https://yjo.xvj.mybluehost.me/com/index2.php
+2024-06-10 02:56:45,118 - ERROR - 32 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:56:51,244 - ERROR - 295 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:56:52,655 - ERROR - 296 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:56:53,248 - WARNING - 297. HTTP connection was not successful for the URL: https://richlifer107.wixsite.com/my-site
+2024-06-10 02:56:54,815 - ERROR - 35 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:01,074 - ERROR - 36 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:05,240 - ERROR - 302 --> Exceeded 30 redirects.
+2024-06-10 02:57:06,643 - WARNING - 303. HTTP connection was not successful for the URL: https://allegrolokaalnie.92154851.xyz/wx424lbu/technical-works
+2024-06-10 02:57:07,681 - ERROR - 38 --> HTTPSConnectionPool(host='www.aeon.co.jp', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:09,035 - ERROR - 40 --> HTTPSConnectionPool(host='myonlinepackage.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
+2024-06-10 02:57:09,546 - WARNING - 306. HTTP connection was not successful for the URL: https://fffffg.cn/login.php
+2024-06-10 02:57:11,529 - ERROR - 307 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1688a2c30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 02:57:13,201 - ERROR - 308 --> HTTPConnectionPool(host='jfczanebjfnwztnpyqtpzf.qhhy.%f0%9f%85%87%f0%9f%85%88%f0%9f%85%89', port=80): Max retries exceeded with url: /token=ref?14becd3728ac041737cdaa3db4752576/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168dd3680>: Failed to resolve 'jfczanebjfnwztnpyqtpzf.qhhy.%f0%9f%85%87%f0%9f%85%88%f0%9f%85%89' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:57:14,817 - ERROR - 42 --> HTTPSConnectionPool(host='ooffer.biz', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:14,835 - ERROR - 309 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x168dd1850>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 02:57:16,170 - WARNING - 310. HTTP connection was not successful for the URL: http://xaywkheagd.duckdns.org
+2024-06-10 02:57:17,055 - WARNING - 311. HTTP connection was not successful for the URL: http://ibxjeytnlj.duckdns.org
+2024-06-10 02:57:17,634 - WARNING - 312. HTTP connection was not successful for the URL: http://xqmgbvidca.duckdns.org
+2024-06-10 02:57:18,204 - WARNING - 313. HTTP connection was not successful for the URL: http://ledznjfcdc.duckdns.org
+2024-06-10 02:57:18,782 - WARNING - 314. HTTP connection was not successful for the URL: http://mzaxvrocef.duckdns.org
+2024-06-10 02:57:19,053 - ERROR - 43 --> HTTPSConnectionPool(host='ooffer.biz', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:19,384 - WARNING - 315. HTTP connection was not successful for the URL: http://jzacapnjmk.duckdns.org
+2024-06-10 02:57:19,880 - WARNING - 44. HTTP connection was not successful for the URL: https://twint.ch-transfers.com/de/receive/1269180589
+2024-06-10 02:57:20,447 - WARNING - 45. HTTP connection was not successful for the URL: http://qddssplkrf.duckdns.org
+2024-06-10 02:57:21,356 - WARNING - 46. HTTP connection was not successful for the URL: http://nsnjwtnjlq.duckdns.org
+2024-06-10 02:57:21,965 - WARNING - 47. HTTP connection was not successful for the URL: http://pkhtnhdyau.duckdns.org
+2024-06-10 02:57:22,543 - WARNING - 48. HTTP connection was not successful for the URL: http://lixurnjfkk.duckdns.org
+2024-06-10 02:57:30,410 - WARNING - 53. HTTP connection was not successful for the URL: https://bio.biolinktr.com/btcommsply95
+2024-06-10 02:57:31,009 - WARNING - 54. HTTP connection was not successful for the URL: https://tinyurl.com/2rhj4tdc
+2024-06-10 02:57:32,273 - WARNING - 56. HTTP connection was not successful for the URL: https://emailattlink.wixsite.com/my-site-1
+2024-06-10 02:57:34,638 - WARNING - 58. HTTP connection was not successful for the URL: https://serviceede.com/ar
+2024-06-10 02:57:35,829 - WARNING - 59. HTTP connection was not successful for the URL: https://webverify.info/Servicecu/Servicecuorg/Servicecuorg
+2024-06-10 02:57:39,203 - WARNING - 62. HTTP connection was not successful for the URL: https://docs.google.com/presentation/d/e/2PACX-1vSwznsXl7LdEKYws4CnIcybGTkUelpZSB-U4ZiADu3Si9SyL1iJj3aBVQn5AHR7pUOen-QcDqS6PNDO/pub?start=false&amp;loop=false&amp;delayms=3000
+2024-06-10 02:57:48,025 - ERROR - 346 --> HTTPSConnectionPool(host='caixadirectagestaonet.com', port=443): Read timed out. (read timeout=4)
+2024-06-10 02:57:48,868 - WARNING - 347. HTTP connection was not successful for the URL: https://docs.google.com/presentation/d/e/2PACX-1vRdMvHVmdKd3T1ZNYMzLKKzBtd_kTMqIXQhbANLz5b2JvPggNQh2mulTNNy4kgkiRYo8HnU1BQB4sVW/pub?start=false&amp;loop=false&amp;delayms=3000
+2024-06-10 02:57:51,115 - ERROR - 68 --> HTTPSConnectionPool(host='myonlinepackage.com', port=443): Max retries exceeded with url: /nw/DHH/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
+2024-06-10 02:57:56,230 - ERROR - 355 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x168a38530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 02:57:57,052 - ERROR - 356 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:57:57,838 - ERROR - 357 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:57:58,776 - ERROR - 358 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:57:59,169 - WARNING - 75. HTTP connection was not successful for the URL: https://activityloginerror-jp-now.web.app/
+2024-06-10 02:57:59,482 - WARNING - 76. HTTP connection was not successful for the URL: https://activityloginerror-jp-now.firebaseapp.com/
+2024-06-10 02:57:59,575 - ERROR - 359 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:57:59,839 - WARNING - 77. HTTP connection was not successful for the URL: https://aquelle-insight.web.app/
+2024-06-10 02:58:00,144 - WARNING - 78. HTTP connection was not successful for the URL: https://aquelle-insight.firebaseapp.com/
+2024-06-10 02:58:00,539 - WARNING - 79. HTTP connection was not successful for the URL: https://bluepayonline-merchant.web.app/
+2024-06-10 02:58:00,860 - WARNING - 80. HTTP connection was not successful for the URL: https://bluepayonline-merchant.firebaseapp.com/
+2024-06-10 02:58:03,174 - WARNING - 87. HTTP connection was not successful for the URL: https://hccjad-f-b-01.web.app/
+2024-06-10 02:58:03,480 - WARNING - 88. HTTP connection was not successful for the URL: https://hccjad-f-b-01.firebaseapp.com/
+2024-06-10 02:58:03,769 - WARNING - 89. HTTP connection was not successful for the URL: https://hornpos.web.app/
+2024-06-10 02:58:04,015 - ERROR - 364 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:58:04,110 - WARNING - 90. HTTP connection was not successful for the URL: https://hornpos.firebaseapp.com/
+2024-06-10 02:58:05,021 - WARNING - 93. HTTP connection was not successful for the URL: https://joioplre.web.app/
+2024-06-10 02:58:05,343 - WARNING - 94. HTTP connection was not successful for the URL: https://joioplre.firebaseapp.com/
+2024-06-10 02:58:05,835 - ERROR - 366 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:58:06,303 - WARNING - 97. HTTP connection was not successful for the URL: https://pr-resolvecheck-appeal.web.app/
+2024-06-10 02:58:06,618 - WARNING - 98. HTTP connection was not successful for the URL: https://pr-resolvecheck-appeal.firebaseapp.com/
+2024-06-10 02:58:07,933 - ERROR - 369 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:58:09,470 - WARNING - 102. HTTP connection was not successful for the URL: https://ktirt.shop/tbi/
+2024-06-10 02:58:15,760 - WARNING - 375. HTTP connection was not successful for the URL: https://ipfs.io/ipfs/bafkreicivcvjvkpnfuua36cod2e2k4txyodvmqrvzxiw3cahojtugyywgq
+2024-06-10 02:58:26,913 - ERROR - 384 --> HTTPSConnectionPool(host='plusraider.online', port=443): Max retries exceeded with url: /arh (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168207020>: Failed to resolve 'plusraider.online' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:58:27,957 - ERROR - 386 --> HTTPSConnectionPool(host='1npost.22154851.xyz', port=443): Max retries exceeded with url: /chxgzvhz/iFWe8E (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168204380>: Failed to resolve '1npost.22154851.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:58:27,960 - ERROR - 387 --> HTTPSConnectionPool(host='1npost.22154851.xyz', port=443): Max retries exceeded with url: /captcha (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168263110>: Failed to resolve '1npost.22154851.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:58:32,249 - ERROR - 393 --> HTTPSConnectionPool(host='arrowuserdeactivate.site', port=443): Max retries exceeded with url: /ar/s/a/session_index (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168c00c20>: Failed to resolve 'arrowuserdeactivate.site' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:58:37,981 - ERROR - 125 --> HTTPSConnectionPool(host='0209659394834583984540320543.03289023982098.onlinegames14.com', port=443): Max retries exceeded with url: /public/tracking.php?id=&page= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x169107140>, 'Connection to 0209659394834583984540320543.03289023982098.onlinegames14.com timed out. (connect timeout=4)'))
+2024-06-10 02:58:40,659 - WARNING - 398. HTTP connection was not successful for the URL: https://allegrolokalniie.95412548.xyz/
+2024-06-10 02:58:41,991 - ERROR - 126 --> HTTPSConnectionPool(host='0209659394834583984540320543.03289023982098.onlinegames14.com', port=443): Max retries exceeded with url: /public/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1691067e0>, 'Connection to 0209659394834583984540320543.03289023982098.onlinegames14.com timed out. (connect timeout=4)'))
+2024-06-10 02:58:45,311 - WARNING - 130. HTTP connection was not successful for the URL: https://tinyurl.com/2uwxnhv7
+2024-06-10 02:58:45,317 - ERROR - 131 --> HTTPSConnectionPool(host='telegamr.xyz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168c0fb90>: Failed to resolve 'telegamr.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:58:47,615 - WARNING - 133. HTTP connection was not successful for the URL: https://stecmcomunlty.com/42727213898132
+2024-06-10 02:58:49,150 - WARNING - 404. HTTP connection was not successful for the URL: https://help3desk2.de/hcu
+2024-06-10 02:58:52,230 - WARNING - 406. HTTP connection was not successful for the URL: https://accounthelp-disputes.com/affinityplus/login.php
+2024-06-10 02:58:57,239 - WARNING - 408. HTTP connection was not successful for the URL: https://vo.la/ZtlCT
+2024-06-10 02:58:58,289 - WARNING - 409. HTTP connection was not successful for the URL: https://rkous.wpenginepowered.com/rikan/Parking/Parking/
+2024-06-10 02:58:59,471 - ERROR - 412 --> HTTPConnectionPool(host='amaz-prime.online', port=80): Max retries exceeded with url: /pergunta/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168c4e270>: Failed to resolve 'amaz-prime.online' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:01,184 - WARNING - 413. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/eng.html
+2024-06-10 02:59:02,766 - WARNING - 414. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/acp.html
+2024-06-10 02:59:04,612 - WARNING - 415. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/persoling.html
+2024-06-10 02:59:06,003 - WARNING - 416. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/loading.html
+2024-06-10 02:59:08,002 - WARNING - 417. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/load2.html
+2024-06-10 02:59:09,395 - WARNING - 418. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/auto.html
+2024-06-10 02:59:10,821 - WARNING - 419. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/load.html
+2024-06-10 02:59:11,144 - ERROR - 149 --> HTTPConnectionPool(host='srv214218.hoster-test.ru', port=80): Max retries exceeded with url: /niftycom/P22.html (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168fca330>: Failed to resolve 'srv214218.hoster-test.ru' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:12,426 - WARNING - 420. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/ac.html
+2024-06-10 02:59:13,800 - WARNING - 421. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/
+2024-06-10 02:59:14,783 - WARNING - 152. HTTP connection was not successful for the URL: https://reefexim.com/account/login/auth
+2024-06-10 02:59:15,780 - WARNING - 153. HTTP connection was not successful for the URL: https://netflixbillingupdates.us.to/app/login.php
+2024-06-10 02:59:17,821 - WARNING - 155. HTTP connection was not successful for the URL: https://reefexim.com/red/index.html
+2024-06-10 02:59:17,913 - ERROR - 156 --> HTTPConnectionPool(host='giran365.pages.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168f161e0>: Failed to resolve 'giran365.pages.dev' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:17,918 - ERROR - 157 --> HTTPSConnectionPool(host='giran365.pages.dev', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168519970>: Failed to resolve 'giran365.pages.dev' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:18,588 - ERROR - 423 --> HTTPSConnectionPool(host='ing.frecuentador-direct.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1684ca180>: Failed to resolve 'ing.frecuentador-direct.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:19,537 - ERROR - 424 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:20,308 - ERROR - 425 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:21,163 - ERROR - 426 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:21,963 - ERROR - 427 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:22,468 - WARNING - 161. HTTP connection was not successful for the URL: https://arceluobert.sviluppo.host/7tr8/app/
+2024-06-10 02:59:22,910 - ERROR - 428 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:23,724 - ERROR - 429 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:23,781 - WARNING - 162. HTTP connection was not successful for the URL: https://nordicp.wpenginepowered.com/wp-admin/www/
+2024-06-10 02:59:24,443 - ERROR - 430 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:25,252 - ERROR - 431 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:26,053 - ERROR - 432 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:26,817 - ERROR - 433 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:27,601 - ERROR - 434 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:28,438 - ERROR - 435 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:29,237 - ERROR - 436 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:30,040 - ERROR - 437 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:30,795 - ERROR - 438 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:31,260 - WARNING - 164. HTTP connection was not successful for the URL: https://rpyadav.org/hellenic-bank-support/
+2024-06-10 02:59:31,595 - ERROR - 439 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:32,355 - ERROR - 440 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:32,787 - ERROR - 166 --> HTTPConnectionPool(host='srv213858.hoster-test.ru', port=80): Max retries exceeded with url: /esp/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x169083c20>: Failed to resolve 'srv213858.hoster-test.ru' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 02:59:33,099 - ERROR - 441 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:33,956 - ERROR - 442 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:34,340 - WARNING - 167. HTTP connection was not successful for the URL: https://tinyurl.com/yc6trkk6
+2024-06-10 02:59:34,799 - ERROR - 443 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:35,584 - ERROR - 444 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:35,643 - WARNING - 168. HTTP connection was not successful for the URL: https://nordicp.wpenginepowered.com/wp-admin/rt/hr.html
+2024-06-10 02:59:36,362 - ERROR - 445 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:37,134 - ERROR - 446 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:37,914 - ERROR - 447 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:38,688 - ERROR - 448 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:39,739 - WARNING - 171. HTTP connection was not successful for the URL: https://t.ly/-Sk_F
+2024-06-10 02:59:39,772 - ERROR - 449 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:40,554 - ERROR - 450 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:41,320 - ERROR - 451 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:42,056 - ERROR - 452 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:42,859 - ERROR - 453 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:43,095 - ERROR - 175 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:43,643 - ERROR - 454 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:44,413 - ERROR - 455 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:44,969 - ERROR - 177 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:45,178 - ERROR - 456 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:45,971 - ERROR - 457 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:46,765 - ERROR - 458 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:47,055 - ERROR - 179 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:47,557 - ERROR - 459 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:47,868 - ERROR - 180 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:48,308 - ERROR - 460 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:48,353 - ERROR - 181 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:49,128 - ERROR - 461 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:49,128 - ERROR - 182 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:49,892 - ERROR - 183 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:49,896 - ERROR - 462 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:50,655 - ERROR - 463 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:51,255 - WARNING - 184. HTTP connection was not successful for the URL: https://t.co/YAcJiXPLNY
+2024-06-10 02:59:51,431 - ERROR - 464 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:51,724 - ERROR - 185 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:52,185 - ERROR - 465 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:52,691 - ERROR - 466 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:53,597 - ERROR - 467 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:54,564 - ERROR - 468 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:55,388 - ERROR - 469 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:56,184 - ERROR - 470 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:56,659 - ERROR - 471 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:57,138 - ERROR - 472 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:57,940 - ERROR - 473 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:58,736 - ERROR - 474 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 02:59:59,570 - ERROR - 475 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:00,377 - ERROR - 476 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:00,526 - ERROR - 186 --> HTTPSConnectionPool(host='bancolombiappsucursalcompra.bsite.net', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1692ab080>, 'Connection to bancolombiappsucursalcompra.bsite.net timed out. (connect timeout=4)'))
+2024-06-10 03:00:00,978 - ERROR - 187 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:01,161 - ERROR - 477 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:02,260 - ERROR - 188 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:02,965 - ERROR - 478 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:03,826 - ERROR - 189 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:04,297 - ERROR - 479 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:07,138 - ERROR - 480 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:08,580 - ERROR - 481 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:09,054 - ERROR - 482 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:16,655 - ERROR - 483 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:18,805 - ERROR - 190 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:20,064 - ERROR - 484 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:25,243 - ERROR - 485 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:26,455 - ERROR - 486 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:27,890 - ERROR - 487 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:29,064 - WARNING - 194. HTTP connection was not successful for the URL: https://tib.pmc.mybluehost.me/particulares.php
+2024-06-10 03:00:34,777 - ERROR - 488 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:35,533 - ERROR - 489 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:36,698 - WARNING - 199. HTTP connection was not successful for the URL: https://postalitenfr.hopto.org/posta.fr
+2024-06-10 03:00:39,190 - ERROR - 490 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:42,865 - ERROR - 491 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:49,628 - WARNING - 207. HTTP connection was not successful for the URL: https://cmhb.ca/1/Net%20Me/load.php?home-US-userID887454686437748135480870230574184864-Email-8869711234348463541898645784-second
+2024-06-10 03:00:52,200 - WARNING - 210. HTTP connection was not successful for the URL: https://intlmanagepayrecovmethodsecureffamlzon.automaxpro.cl/?yyy
+2024-06-10 03:00:53,938 - WARNING - 211. HTTP connection was not successful for the URL: http://prvt8updateaccessupgrademanagezone.sebr2049.odns.fr/?herfnedrjhrstjsrtg
+2024-06-10 03:00:56,647 - ERROR - 492 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:00:57,398 - ERROR - 493 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:02,375 - ERROR - 494 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:03,159 - ERROR - 495 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:07,311 - ERROR - 496 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:11,280 - ERROR - 497 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:16,164 - WARNING - 226. HTTP connection was not successful for the URL: https://ict.enu.mybluehost.me/servizo/home/paket.php
+2024-06-10 03:01:19,773 - WARNING - 229. HTTP connection was not successful for the URL: https://supersegbrasil.com.br/techx/MTTRBDFH/index?FGDD=1
+2024-06-10 03:01:20,281 - ERROR - 498 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:01:20,370 - ERROR - 499 --> HTTPSConnectionPool(host='twint-ch.www-twint.lol', port=443): Max retries exceeded with url: /de/receive/751552428 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1684cbda0>: Failed to resolve 'twint-ch.www-twint.lol' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:01:20,394 - INFO - Phishing dataset updated successfully.
+2024-06-10 03:01:20,999 - WARNING - 230. HTTP connection was not successful for the URL: https://llk.dxc.mybluehost.me/wp-admin/Correos23/correos/auth/index.php
+2024-06-10 03:01:40,669 - WARNING - 247. HTTP connection was not successful for the URL: http://page-timestjjhnfril.pages.dev
+2024-06-10 03:01:41,278 - WARNING - 248. HTTP connection was not successful for the URL: https://page-timestjjhnfril.pages.dev/
+2024-06-10 03:01:42,200 - WARNING - 249. HTTP connection was not successful for the URL: http://page-timelegbhytf.pages.dev
+2024-06-10 03:01:42,755 - WARNING - 250. HTTP connection was not successful for the URL: https://page-timelegbhytf.pages.dev/
+2024-06-10 03:01:52,907 - ERROR - 254 --> HTTPSConnectionPool(host='mile.from-wv.com', port=443): Max retries exceeded with url: /foroto (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x168485250>, 'Connection to mile.from-wv.com timed out. (connect timeout=4)'))
+2024-06-10 03:01:56,911 - ERROR - 255 --> HTTPSConnectionPool(host='mile.from-wv.com', port=443): Max retries exceeded with url: /foroto/pages/region.php?lca (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1684865a0>, 'Connection to mile.from-wv.com timed out. (connect timeout=4)'))
+2024-06-10 03:02:00,249 - WARNING - 257. HTTP connection was not successful for the URL: https://rebrand.ly/f1a0a7
+2024-06-10 03:02:03,063 - WARNING - 258. HTTP connection was not successful for the URL: https://rebrand.ly/1weyian
+2024-06-10 03:02:04,342 - WARNING - 259. HTTP connection was not successful for the URL: https://postnordtud.top/i
+2024-06-10 03:02:05,553 - WARNING - 260. HTTP connection was not successful for the URL: https://postaja.top/o74HrX
+2024-06-10 03:02:06,621 - WARNING - 261. HTTP connection was not successful for the URL: https://cpanel08wh.bkk1.cloud.z.com/~cp250158/imageplus.co.th/wp-includes/Text/Diff/Renderer/index2.php?enc=82e9b4065ccd132573f796c07caf9c4c&p=0&dispatch=f8c69819e7ad217b025c2eec347df792f7fe0eb7
+2024-06-10 03:02:10,917 - WARNING - 266. HTTP connection was not successful for the URL: https://isrpostmm.life/il
+2024-06-10 03:02:40,444 - ERROR - 295 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:02:42,852 - ERROR - 296 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:02:43,379 - WARNING - 297. HTTP connection was not successful for the URL: https://richlifer107.wixsite.com/my-site
+2024-06-10 03:02:54,354 - ERROR - 302 --> Exceeded 30 redirects.
+2024-06-10 03:02:55,354 - WARNING - 303. HTTP connection was not successful for the URL: https://allegrolokaalnie.92154851.xyz/wx424lbu/technical-works
+2024-06-10 03:02:57,415 - WARNING - 306. HTTP connection was not successful for the URL: https://fffffg.cn/login.php
+2024-06-10 03:02:59,310 - ERROR - 307 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x168ffaba0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 03:03:01,137 - ERROR - 308 --> HTTPConnectionPool(host='jfczanebjfnwztnpyqtpzf.qhhy.%f0%9f%85%87%f0%9f%85%88%f0%9f%85%89', port=80): Max retries exceeded with url: /token=ref?14becd3728ac041737cdaa3db4752576/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x168ff9760>: Failed to resolve 'jfczanebjfnwztnpyqtpzf.qhhy.%f0%9f%85%87%f0%9f%85%88%f0%9f%85%89' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:03:02,150 - ERROR - 309 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x168ff86b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 03:03:02,766 - WARNING - 310. HTTP connection was not successful for the URL: http://xaywkheagd.duckdns.org
+2024-06-10 03:03:04,830 - WARNING - 311. HTTP connection was not successful for the URL: http://ibxjeytnlj.duckdns.org
+2024-06-10 03:03:05,393 - WARNING - 312. HTTP connection was not successful for the URL: http://xqmgbvidca.duckdns.org
+2024-06-10 03:03:07,173 - WARNING - 313. HTTP connection was not successful for the URL: http://ledznjfcdc.duckdns.org
+2024-06-10 03:03:07,907 - WARNING - 314. HTTP connection was not successful for the URL: http://mzaxvrocef.duckdns.org
+2024-06-10 03:03:08,446 - WARNING - 315. HTTP connection was not successful for the URL: http://jzacapnjmk.duckdns.org
+2024-06-10 03:03:33,062 - ERROR - 346 --> HTTPSConnectionPool(host='caixadirectagestaonet.com', port=443): Read timed out. (read timeout=4)
+2024-06-10 03:03:34,025 - WARNING - 347. HTTP connection was not successful for the URL: https://docs.google.com/presentation/d/e/2PACX-1vRdMvHVmdKd3T1ZNYMzLKKzBtd_kTMqIXQhbANLz5b2JvPggNQh2mulTNNy4kgkiRYo8HnU1BQB4sVW/pub?start=false&amp;loop=false&amp;delayms=3000
+2024-06-10 03:03:41,085 - ERROR - 355 --> HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1685ac800>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-06-10 03:03:42,200 - ERROR - 356 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:43,012 - ERROR - 357 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:45,112 - ERROR - 358 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:45,829 - ERROR - 359 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:49,853 - ERROR - 364 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:51,365 - ERROR - 366 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:03:56,290 - ERROR - 369 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:04:04,664 - WARNING - 375. HTTP connection was not successful for the URL: https://ipfs.io/ipfs/bafkreicivcvjvkpnfuua36cod2e2k4txyodvmqrvzxiw3cahojtugyywgq
+2024-06-10 03:04:14,047 - ERROR - 384 --> HTTPSConnectionPool(host='plusraider.online', port=443): Max retries exceeded with url: /arh (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168e156a0>: Failed to resolve 'plusraider.online' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:04:15,217 - ERROR - 386 --> HTTPSConnectionPool(host='1npost.22154851.xyz', port=443): Max retries exceeded with url: /chxgzvhz/iFWe8E (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168e17890>: Failed to resolve '1npost.22154851.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:04:15,220 - ERROR - 387 --> HTTPSConnectionPool(host='1npost.22154851.xyz', port=443): Max retries exceeded with url: /captcha (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168e17e30>: Failed to resolve '1npost.22154851.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:04:19,296 - ERROR - 393 --> HTTPSConnectionPool(host='arrowuserdeactivate.site', port=443): Max retries exceeded with url: /ar/s/a/session_index (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168e3bda0>: Failed to resolve 'arrowuserdeactivate.site' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:04:24,095 - WARNING - 398. HTTP connection was not successful for the URL: https://allegrolokalniie.95412548.xyz/
+2024-06-10 03:04:30,592 - WARNING - 404. HTTP connection was not successful for the URL: https://help3desk2.de/hcu
+2024-06-10 03:04:33,012 - WARNING - 406. HTTP connection was not successful for the URL: https://accounthelp-disputes.com/affinityplus/login.php
+2024-06-10 03:04:36,904 - WARNING - 408. HTTP connection was not successful for the URL: https://vo.la/ZtlCT
+2024-06-10 03:04:38,536 - WARNING - 409. HTTP connection was not successful for the URL: https://rkous.wpenginepowered.com/rikan/Parking/Parking/
+2024-06-10 03:04:41,013 - ERROR - 412 --> HTTPConnectionPool(host='amaz-prime.online', port=80): Max retries exceeded with url: /pergunta/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x16927c200>: Failed to resolve 'amaz-prime.online' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:04:42,527 - WARNING - 413. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/eng.html
+2024-06-10 03:04:44,059 - WARNING - 414. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/acp.html
+2024-06-10 03:04:45,711 - WARNING - 415. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/persoling.html
+2024-06-10 03:04:47,416 - WARNING - 416. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/vbv/loading.html
+2024-06-10 03:04:48,671 - WARNING - 417. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/load2.html
+2024-06-10 03:04:50,212 - WARNING - 418. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/auto.html
+2024-06-10 03:04:51,588 - WARNING - 419. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/load.html
+2024-06-10 03:04:53,281 - WARNING - 420. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/ac.html
+2024-06-10 03:04:55,123 - WARNING - 421. HTTP connection was not successful for the URL: https://w989n02491.wpenginepowered.com/V.10/
+2024-06-10 03:05:03,820 - ERROR - 423 --> HTTPSConnectionPool(host='ing.frecuentador-direct.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x168698170>: Failed to resolve 'ing.frecuentador-direct.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:05:05,721 - ERROR - 424 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:06,468 - ERROR - 425 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:09,417 - ERROR - 426 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:10,199 - ERROR - 427 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:10,999 - ERROR - 428 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:11,824 - ERROR - 429 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:12,815 - ERROR - 430 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:13,617 - ERROR - 431 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:15,569 - ERROR - 432 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:16,496 - ERROR - 433 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:18,945 - ERROR - 434 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:19,776 - ERROR - 435 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:20,581 - ERROR - 436 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:21,394 - ERROR - 437 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:22,945 - ERROR - 438 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:23,755 - ERROR - 439 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:26,000 - ERROR - 440 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:26,816 - ERROR - 441 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:27,599 - ERROR - 442 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:28,510 - ERROR - 443 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:29,320 - ERROR - 444 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:30,071 - ERROR - 445 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:30,940 - ERROR - 446 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:31,877 - ERROR - 447 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:32,773 - ERROR - 448 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:33,699 - ERROR - 449 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:34,470 - ERROR - 450 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:35,274 - ERROR - 451 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:36,183 - ERROR - 452 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:36,971 - ERROR - 453 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:37,778 - ERROR - 454 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:38,590 - ERROR - 455 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:39,370 - ERROR - 456 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:40,157 - ERROR - 457 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:41,083 - ERROR - 458 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:41,984 - ERROR - 459 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:42,838 - ERROR - 460 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:43,857 - ERROR - 461 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:44,680 - ERROR - 462 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:45,469 - ERROR - 463 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:46,294 - ERROR - 464 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:47,566 - ERROR - 465 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:48,463 - ERROR - 466 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:49,306 - ERROR - 467 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:50,099 - ERROR - 468 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:50,866 - ERROR - 469 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:51,806 - ERROR - 470 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:52,694 - ERROR - 471 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:53,636 - ERROR - 472 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:54,590 - ERROR - 473 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:55,375 - ERROR - 474 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:56,149 - ERROR - 475 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:57,000 - ERROR - 476 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:57,962 - ERROR - 477 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:58,767 - ERROR - 478 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:05:59,511 - ERROR - 479 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:00,360 - ERROR - 480 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:01,332 - ERROR - 481 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:02,469 - ERROR - 482 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:03,325 - ERROR - 483 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:04,130 - ERROR - 484 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:05,029 - ERROR - 485 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:05,890 - ERROR - 486 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:06,834 - ERROR - 487 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:07,629 - ERROR - 488 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:08,868 - ERROR - 489 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:09,649 - ERROR - 490 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:10,570 - ERROR - 491 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:11,327 - ERROR - 492 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:12,095 - ERROR - 493 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:12,851 - ERROR - 494 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:13,899 - ERROR - 495 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:15,154 - ERROR - 496 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:15,912 - ERROR - 497 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:16,709 - ERROR - 498 --> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-06-10 03:06:16,712 - ERROR - 499 --> HTTPSConnectionPool(host='twint-ch.www-twint.lol', port=443): Max retries exceeded with url: /de/receive/751552428 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x16869af90>: Failed to resolve 'twint-ch.www-twint.lol' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-06-10 03:06:16,720 - INFO - Phishing dataset updated successfully.
+2024-06-13 13:37:10,498 - INFO - Successfully fetched data from Phishtank.
+2024-06-13 13:46:52,862 - INFO - Successfully fetched data from Phishtank.
+2024-06-13 13:56:51,537 - INFO - Successfully fetched data from Phishtank.
