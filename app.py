@@ -54,9 +54,9 @@ def get_driver(width, height):
         driver = webdriver.Chrome(service=service, options=options)
         return driver
     except Exception as e:
-        st.error(f"Error initializing WebDriver: {e}")
+        st.error("Error initializing WebDriver. Please ensure Chrome is installed and up-to-date.")
+        st.error(f"Details: {e}")
         return None
-
 
 # Define the get_screenshot function
 def get_screenshot(app_url, width, height):
@@ -73,6 +73,7 @@ def get_screenshot(app_url, width, height):
         st.error(f"Error capturing screenshot: {e}")
     finally:
         driver.quit()
+
 
 # Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
