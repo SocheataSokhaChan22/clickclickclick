@@ -1,2 +1,3 @@
 2024-06-30 17:59:56,399 - ERROR - Failed to fetch data. Status code: 404
 2024-06-30 17:59:56,403 - ERROR - Failed to update the phishing dataset.
+2024-06-30 18:18:26,212 - INFO - Successfully fetched data from Phishtank.
