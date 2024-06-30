@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import time
 import requests
@@ -9,7 +10,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from os.path import exists
 import feature_extraction as fe
 from streamlit_extras.let_it_rain import rain
 import pandas as pd
@@ -74,10 +74,9 @@ def get_screenshot(app_url, width, height):
     finally:
         driver.quit()
 
-
 # Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
-    headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
+    headers = {'API-Key': 'YOUR_API_KEY_HERE', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
     response = requests.post('https://urlscan.io/api/v1/scan/', headers=headers, json=data)
     time.sleep(10)
@@ -168,7 +167,7 @@ with st.form("my_form"):
                 st.error(f"Error: {e}")
 
 # Display screenshot result if submitted
-if st.session_state.submitted and exists('screenshot.png'):
+if st.session_state.submitted and os.path.exists('screenshot.png'):
     st.image('screenshot.png', caption="Live Screenshot of the URL", use_column_width=True)
 
     with open("screenshot.png", "rb") as file:
