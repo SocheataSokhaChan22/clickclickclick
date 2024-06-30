@@ -44,8 +44,11 @@ def get_driver():
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.binary_location = str(os.environ.get("CHROME_BIN"))
+    st.write(f"CHROME_BIN: {options.binary_location}")
 
     service = Service(str(os.environ.get("CHROME_DRIVER")))
+    st.write(f"CHROME_DRIVER: {service.path}")
+    
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 

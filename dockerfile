@@ -21,6 +21,9 @@ RUN CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_R
 ENV CHROME_BIN=/usr/bin/chromium
 ENV CHROME_DRIVER=/usr/local/bin/chromedriver
 
+# Ensure ChromeDriver has the correct permissions
+RUN chmod +x /usr/local/bin/chromedriver
+
 # Install Python dependencies
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
