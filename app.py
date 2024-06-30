@@ -1,21 +1,20 @@
 import streamlit as st
+st.write("Streamlit version:", st.__version__)
 import time
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 from os.path import exists
 import feature_extraction as fe
 from streamlit_extras.let_it_rain import rain
 import pandas as pd
 import machine_learning
 import os
-import json
 
 # Set up Streamlit page configuration and custom CSS
 st.set_page_config(
@@ -28,37 +27,40 @@ st.set_page_config(
 st.markdown("""
     <style>
     .stApp {
-        color: #333;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
     }
     .stTitle {
         color: #333;
-        font-size: 36px;
+        font-size: 48px;
     }
-    .stHeader {
+    .stHeader, .stSubheader {
         color: #333;
+        font-size: 32px;
     }
-    .stSubheader {
+    .stMarkdown {
         color: #333;
+        font-size: 24px;
     }
     .stTextInput > div > div > input {
         border: 2px solid #E97451;
-        background-color: #fff;  /* Set background color to white */
-        color: #000;  /* Set text color to black */
+        font-size: 20px;
     }
-    .stSelectBox > div > div {
+    .stSelectbox > div > div > div > div {
         border: 2px solid #E97451;
-        background-color: #fff;  /* Set background color to white */
-        color: #000;  /* Set text color to black */
+        font-size: 20px;
+    }
+    .stButton > button {
+        background-color: #E97451;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
     }
     .frame {
         display: block;
         margin: 20px auto;
         width: 80%;
         max-width: 500px;
-    }
-    .stMarkdown p {
-        font-size: 24px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -67,7 +69,6 @@ st.markdown("""
 if 'recently_checked_urls' not in st.session_state:
     st.session_state.recently_checked_urls = pd.DataFrame(columns=['URL', 'Status'])
 
-# Add a logo/image
 st.image("frame.png", output_format='PNG')
 st.title('ClickClickClick URL Identifier')
 st.write('ClickClickClick URL Identifier helps you detect malicious links in emails, text messages, and other online content.')
@@ -179,10 +180,7 @@ with st.form("my_form"):
             try:
                 response = requests.get(app_url, verify=False, timeout=4)
                 if response.status_code != 200:
-                    st.error("We could not scan this website! This can happen for multiple reasons:"
-                             "The site could not be contacted (DNS or generic network issues):"
-                             "The site uses insecure TLS (weak ciphers e.g.):" 
-                             "The site requires HTTP authentication: {}".format(app_url))
+                    st.error("We could not scan this website! This can happen for multiple reasons: The site could not be contacted (DNS or generic network issues), The site uses insecure TLS (weak ciphers e.g.), The site requires HTTP authentication.")
                 else:
                     soup = BeautifulSoup(response.content, "html.parser")
                     vector = fe.create_vector(soup)
@@ -240,8 +238,8 @@ st.write('Project Members:')
 st.write('- Morita Chhea')
 st.write('- Socheata Sokhachan')
 st.write('- Sophy Do')        
-st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various benign and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
+st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various sources and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
 
 # Footer with contact and privacy policy
-st.write('Contact us at: [clickclickclick@example.com](mailto:ssokhachan@paragoniu.edu.kh)')
+st.write('Contact us at: [customerservice@clickclickclick.com](mailto:ssokhachan@paragoniu.edu.kh)')
 st.write('Privacy Policy: We respect your privacy and do not store or share any information entered in the ClickClickClick URL Identifier.')
