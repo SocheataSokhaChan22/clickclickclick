@@ -22,45 +22,39 @@ st.set_page_config(
     layout="wide",
 )
 
-# Custom CSS for improved visibility and color display
 st.markdown("""
     <style>
+    /* Enforce light mode */
+    @media (prefers-color-scheme: dark) {
+        .stApp {
+            background-color: #f9f9f9 !important; /* Light background color */
+            color: #333 !important; /* Dark text color */
+        }
+        .stTitle, .stHeader, .stSubheader, .stMarkdown, .stTextInput > div > div > input, .stSelectbox > div > div > div > div, .stButton > button {
+            color: #333 !important; /* Dark text color */
+        }
+        .stTextInput > div > div > input, .stSelectbox > div > div > div > div {
+            border: 2px solid #E97451 !important; /* Input and select box border color */
+        }
+        .stButton > button {
+            background-color: #E97451 !important; /* Button background color */
+            color: white !important; /* Button text color */
+        }
+    }
+    /* For users already in light mode */
     .stApp {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #f9f9f9; /* Light background color */
-        color: #333; /* Text color */
+        color: #333; /* Dark text color */
     }
-    .stTitle {
-        color: #333; /* Title text color */
-        font-size: 48px;
+    .stTitle, .stHeader, .stSubheader, .stMarkdown, .stTextInput > div > div > input, .stSelectbox > div > div > div > div, .stButton > button {
+        color: #333; /* Dark text color */
     }
-    .stHeader, .stSubheader {
-        color: #333; /* Header and subheader text color */
-        font-size: 32px;
-    }
-    .stMarkdown {
-        color: #333; /* Markdown text color */
-        font-size: 24px;
-    }
-    .stTextInput > div > div > input {
-        border: 2px solid #E97451; /* Input border color */
-        font-size: 20px;
-    }
-    .stSelectbox > div > div > div > div {
-        border: 2px solid #E97451; /* Select box border color */
-        font-size: 20px;
+    .stTextInput > div > div > input, .stSelectbox > div > div > div > div {
+        border: 2px solid #E97451; /* Input and select box border color */
     }
     .stButton > button {
         background-color: #E97451; /* Button background color */
         color: white; /* Button text color */
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-    .frame {
-        display: block;
-        margin: 20px auto;
-        width: 80%;
-        max-width: 500px;
     }
     </style>
     """, unsafe_allow_html=True)
