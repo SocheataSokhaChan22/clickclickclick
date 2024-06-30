@@ -212,19 +212,45 @@ if st.session_state.submitted and exists('screenshot.png'):
             mime="image/png"
         )
 
-# Define a function to apply color based on status
-def apply_color(status):
-    if status == 'SUSPICIOUS':
-        return 'color: red'
-    elif status == 'LEGITIMATE':
-        return 'color: green'
-    else:
-        return ''
+# Define a function to apply custom CSS to style the dataframe
+def apply_custom_css():
+    st.markdown(
+        """
+        <style>
+        .custom-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .custom-table th, .custom-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .custom-table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #E97451;
+            color: white;
+        }
+        .custom-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .custom-table tr:hover {
+            background-color: #ddd;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
-# Display the recently checked URLs and their statuses with colored text
-st.subheader("Recently Checked URLs:")
-recently_checked_table = st.session_state.recently_checked_urls.reset_index(drop=True)
-st.table(recently_checked_table.style.applymap(lambda x: apply_color(x), subset=['Status']))
+# Display the recently checked URLs dataframe with custom CSS
+apply_custom_css()
+st.write("<h3>Recently Checked URLs</h3>", unsafe_allow_html=True)
+st.write(
+    st.session_state.recently_checked_urls.to_html(classes='custom-table', index=False),
+    unsafe_allow_html=True
+)
 
 st.header("About ClickClickClick URL Identifier")
 st.write('ClickClickClick URL Identifier is a tool developed by 3 junior students of the MIS department at Paragon International University.') 
