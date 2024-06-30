@@ -3,12 +3,6 @@ import streamlit as st
 import time
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 import pandas as pd
 import feature_extraction as fe
 import machine_learning
@@ -37,35 +31,8 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
-def get_driver():
-    options = Options()
-    options.add_argument('--disable-gpu')
-    options.add_argument('--headless')
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.binary_location = str(os.environ.get("CHROME_BIN"))
-    st.write(f"CHROME_BIN: {options.binary_location}")
-
-    service = Service(str(os.environ.get("CHROME_DRIVER")))
-    st.write(f"CHROME_DRIVER: {service.path}")
-    
-    driver = webdriver.Chrome(service=service, options=options)
-    return driver
-
-def get_screenshot(app_url):
-    driver = get_driver()
-    try:
-        driver.get(app_url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
-        time.sleep(2)
-        driver.save_screenshot('screenshot.png')
-    except Exception as e:
-        st.error(f"Error capturing screenshot: {e}")
-    finally:
-        driver.quit()
-
 def submit_url_to_urlscan(url, visibility='public'):
-    headers = {'API-Key': 'your_api_key', 'Content-Type': 'application/json'}
+    headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
     response = requests.post('https://urlscan.io/api/v1/scan/', headers=headers, json=data)
     time.sleep(10)
@@ -115,7 +82,6 @@ with st.form("my_form"):
     if clickclickclick_submit:
         if app_url:
             try:
-                get_screenshot(app_url)
                 st.session_state.submitted = True
 
                 response = requests.get(app_url, verify=False, timeout=4)
@@ -149,17 +115,6 @@ with st.form("my_form"):
                     st.success(f'Scan complete. View results at [URLScan website](https://urlscan.io/result/{scan_id}/)')
             except requests.exceptions.RequestException as e:
                 st.error(f"Error: {e}")
-
-if st.session_state.submitted and os.path.exists('screenshot.png'):
-    st.image('screenshot.png', caption="Live Screenshot of the URL", use_column_width=True)
-
-    with open("screenshot.png", "rb") as file:
-        btn = st.download_button(
-            label="Download image",
-            data=file,
-            file_name="screenshot.png",
-            mime="image/png"
-        )
 
 def apply_color(status):
     return 'color: red' if status == 'SUSPICIOUS' else 'color: green'
