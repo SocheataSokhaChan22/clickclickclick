@@ -8,6 +8,7 @@ from sklearn.metrics import confusion_matrix, roc_curve, auc, precision_recall_c
 import matplotlib.pyplot as plt
 from imblearn.over_sampling import SMOTE
 import json
+import os
 
 # Read the csv files and create pandas dataframes
 legitimate_df = pd.read_csv("structured_data_legitimate.csv")
