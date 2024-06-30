@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, validation_curve
 from sklearn import svm, tree
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
@@ -56,6 +56,36 @@ def plot_roc_curve(y_test, y_pred_proba, model_name):
     plt.savefig(f'roc_curve_{model_name}.png')
     plt.close()
 
+# Function to plot validation curve
+def plot_validation_curve(model, title, X, y, param_name, param_range, cv):
+    train_scores, test_scores = validation_curve(
+        model, X, y, param_name=param_name, param_range=param_range,
+        cv=cv, scoring="accuracy", n_jobs=-1
+    )
+    train_scores_mean = np.mean(train_scores, axis=1)
+    train_scores_std = np.std(train_scores, axis=1)
+    test_scores_mean = np.mean(test_scores, axis=1)
+    test_scores_std = np.std(test_scores, axis=1)
+
+    plt.title(title)
+    plt.xlabel(param_name)
+    plt.ylabel("Score")
+    plt.ylim(0.0, 1.1)
+    lw = 2
+    plt.semilogx(param_range, train_scores_mean, label="Training score",
+                 color="darkorange", lw=lw)
+    plt.fill_between(param_range, train_scores_mean - train_scores_std,
+                     train_scores_mean + train_scores_std, alpha=0.2,
+                     color="darkorange", lw=lw)
+    plt.semilogx(param_range, test_scores_mean, label="Cross-validation score",
+                 color="navy", lw=lw)
+    plt.fill_between(param_range, test_scores_mean - test_scores_std,
+                     test_scores_mean + test_scores_std, alpha=0.2,
+                     color="navy", lw=lw)
+    plt.legend(loc="best")
+    plt.savefig(f'{title}.png')
+    plt.show()
+
 # Train models and store results
 results = []
 for model, model_name in [(nb_model, "Naive Bayes"), (svm_model, "SVM"), (dt_model, "Decision Tree"), (rf_model, "Random Forest")]:
@@ -83,6 +113,12 @@ for model, model_name in [(nb_model, "Naive Bayes"), (svm_model, "SVM"), (dt_mod
         "Classification Report": json.dumps(classification_report(y_test, y_pred, output_dict=True))
     })
 
+    # Example usage of validation curve
+    if model_name == "Random Forest":
+        param_range = np.arange(10, 100, 10)  # Example range for n_estimators
+        plot_validation_curve(model, f"Validation Curve - {model_name}", X_res, Y_res, param_name='n_estimators', param_range=param_range, cv=5)
+
 # Create DataFrame for results
 results_df = pd.DataFrame(results)
 results_df.to_csv('model_results.csv', index=False)
+
