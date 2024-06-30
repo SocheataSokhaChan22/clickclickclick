@@ -27,31 +27,32 @@ st.markdown("""
     <style>
     .stApp {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f9f9f9;
+        background-color: #f9f9f9; /* Light background color */
+        color: #333; /* Text color */
     }
     .stTitle {
-        color: #333;
+        color: #333; /* Title text color */
         font-size: 48px;
     }
     .stHeader, .stSubheader {
-        color: #333;
+        color: #333; /* Header and subheader text color */
         font-size: 32px;
     }
     .stMarkdown {
-        color: #333;
+        color: #333; /* Markdown text color */
         font-size: 24px;
     }
     .stTextInput > div > div > input {
-        border: 2px solid #E97451;
+        border: 2px solid #E97451; /* Input border color */
         font-size: 20px;
     }
     .stSelectbox > div > div > div > div {
-        border: 2px solid #E97451;
+        border: 2px solid #E97451; /* Select box border color */
         font-size: 20px;
     }
     .stButton > button {
-        background-color: #E97451;
-        color: white;
+        background-color: #E97451; /* Button background color */
+        color: white; /* Button text color */
         font-size: 20px;
         padding: 10px 20px;
     }
