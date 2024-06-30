@@ -50,7 +50,8 @@ def get_driver(width, height):
     options.add_argument("--disable-dev-shm-usage")
 
     try:
-        service = Service(ChromeDriverManager().install(), port=0)
+        chrome_path = '/usr/bin/chromedriver'  # Path to ChromeDriver
+        service = Service(chrome_path)
         driver = webdriver.Chrome(service=service, options=options)
         return driver
     except Exception as e:
@@ -76,7 +77,7 @@ def get_screenshot(app_url, width, height):
 
 # Define the submit_url_to_urlscan function
 def submit_url_to_urlscan(url, visibility='public'):
-    headers = {'API-Key': 'YOUR_API_KEY_HERE', 'Content-Type': 'application/json'}
+    headers = {'API-Key': '35c0f5ff-38a9-4c9c-8844-1c246ef7012d', 'Content-Type': 'application/json'}
     data = {"url": url, "visibility": visibility}
     response = requests.post('https://urlscan.io/api/v1/scan/', headers=headers, json=data)
     time.sleep(10)
