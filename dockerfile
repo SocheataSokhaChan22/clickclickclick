@@ -1,35 +1,35 @@
-FROM selenium/standalone-chrome:latest
+FROM python:3.9-slim
 
-# Install necessary dependencies
+# Install Chrome and other dependencies
 RUN apt-get update && apt-get install -y \
-    python3-pip \
-    python3-dev \
-    build-essential \
-    chromium \
-    chromium-driver \
     wget \
+    gnupg \
     unzip \
-    gnupg
+    && apt-get install -y libnss3 libgconf-2-4 libxss1 libappindicator1 libindicator7 \
+    && apt-get install -y fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libcups2 libdbus-1-3 libexpat1 libgbm1 libgtk-3-0 libnspr4 libpango-1.0-0 libxcomposite1 libxrandr2 xdg-utils libu2f-udev libvulkan1 libxshmfence1 \
+    && apt-get install -y --no-install-recommends chromium \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip
-RUN pip3 install --upgrade pip
+# Download ChromeDriver
+RUN CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE) \
+    && wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip \
+    && unzip /tmp/chromedriver.zip -d /usr/local/bin/ \
+    && rm /tmp/chromedriver.zip
 
 # Set environment variables
-ENV CHROME_BIN=/usr/bin/google-chrome
-ENV CHROME_PATH=/usr/lib/chromium-browser/
-ENV CHROMEDRIVER_PATH=/usr/local/bin/chromedriver
-ENV CHROME_DRIVER_PATH=/usr/local/bin/chromedriver
-ENV PATH="/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-
-# Copy the Streamlit app
-COPY . /app
-WORKDIR /app
+ENV CHROME_BIN=/usr/bin/chromium
+ENV CHROME_DRIVER=/usr/local/bin/chromedriver
 
 # Install Python dependencies
 COPY requirements.txt requirements.txt
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the port that Streamlit runs on
+# Copy the application
+COPY . /app
+WORKDIR /app
+
+# Expose the port Streamlit runs on
 EXPOSE 8501
 
 # Run Streamlit

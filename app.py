@@ -37,29 +37,20 @@ st.write('ClickClickClick URL Identifier helps you detect malicious links in ema
 st.subheader('Disclaimer')
 st.write('Our tools are intended to help users identify potential phishing links or legitimate URLs. While we strive for accuracy, results may vary. We are not liable for any damages resulting from tool use. By using our services, you agree to these terms.')
 
-def get_driver(width, height):
+def get_driver():
     options = Options()
     options.add_argument('--disable-gpu')
     options.add_argument('--headless')
-    options.add_argument(f"--window-size={width}x{height}")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.binary_location = os.environ.get("CHROME_BIN")
 
-    try:
-        chrome_driver_path = '/usr/local/bin/chromedriver'
-        service = Service(chrome_driver_path)
-        driver = webdriver.Chrome(service=service, options=options)
-        return driver
-    except Exception as e:
-        st.error("Error initializing WebDriver. Please ensure Chrome is installed and up-to-date.")
-        st.error(f"Details: {e}")
-        return None
+    service = Service(os.environ.get("CHROME_DRIVER"))
+    driver = webdriver.Chrome(service=service, options=options)
+    return driver
 
-def get_screenshot(app_url, width, height):
-    driver = get_driver(width, height)
-    if not driver:
-        return
-
+def get_screenshot(app_url):
+    driver = get_driver()
     try:
         driver.get(app_url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
@@ -98,9 +89,6 @@ def example_phishing():
         animation_length=5,
     )
 
-width = 1920 
-height = 1080
-
 if 'submitted' not in st.session_state:
     st.session_state.submitted = False
 
@@ -124,7 +112,7 @@ with st.form("my_form"):
     if clickclickclick_submit:
         if app_url:
             try:
-                get_screenshot(app_url, width, height)
+                get_screenshot(app_url)
                 st.session_state.submitted = True
 
                 response = requests.get(app_url, verify=False, timeout=4)
