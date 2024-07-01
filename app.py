@@ -132,5 +132,4 @@ st.write('- Sophy Do')
 st.write('ClickClickClick URL Identifier detects phishing and malicious websites using a machine-learning algorithm. The tool uses high-quality datasets containing features from various sources and phishing websites. The ClickClickClick URL Identifier uses a Random Forest machine learning model to identify potential phishing websites from features such as the URL, its domain, HTML content, and other heuristics.')
 st.write('Report Issue: [ClickClickClick Tech Crew](mailto:ssokhachan@paragoniu.edu.kh)')
 st.write('Privacy Policy: We respect your privacy and do not store or share any information entered in the ClickClickClick URL Identifier.')
-
 st.write('Learn more about Phishing: [ClickClickClick Online awareness campaign](https://www.facebook.com/profile.php?id=61557960070679)')
